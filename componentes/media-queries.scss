@@ -1,0 +1,97 @@
+$fuente1: 'Lato', sans-serif;
+$fuente2: 'Oswald', sans-serif;
+$color-claro: #ffffff;
+$color-primario: #333333;
+$color-secundario: #9952DA;
+$color-variacion: #3f579a;
+$mode-darck: false;
+
+@if $mode-darck==true {
+	$color-claro: #333333;
+	$color-primario: #ffffff;
+}
+
+@mixin caja {
+	box-shadow: 6px 6px rgba(0, 0, 0,0.50);
+}
+
+// para diferencias
+
+main {
+  display: grid;
+
+  .perfil {
+    width: 100%;
+    height: auto;
+    &__boton {
+      padding-top: 7px;
+    }
+  }
+
+ 
+  .estadistica--perfil {
+  	width: 75%;
+  	h3 {
+  		font-size: 20px;
+  	}	
+  }
+  
+
+  .ubicacion--perfil {
+    width: 75%;
+    padding: 20px 0 0 30px;
+  }
+  
+  .estadistica--perfil {
+    @include caja;
+  }
+  
+  .ubicacion--perfil {
+    @include caja;
+  }
+  
+
+  .galeria {
+    width: 75%;
+    height: auto;
+    padding: 20px 0 5px 15px;
+    @include caja;
+    &__foto-principal {
+        margin-left: 15%;
+    }
+    &__fotos-adicionales img {
+        height: 150px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    h2 {
+      margin-left: 24%;
+    }
+  }
+
+  .articulos {
+    width: 100%;
+  
+    padding: 5px 5px 5px 5px;
+  }
+
+  .articulo {
+    margin-bottom: 0%;
+    margin-top: 10px;
+    &__categoria {
+      margin-left: 5px;
+    }
+    &__titulo {
+      margin: 2px 2% 2% 5%;
+      font-size: 12px;
+      padding: 0;
+    }
+
+    &__descripcion {
+      margin: 2px 2% 2% 5%;
+      font-size: 12px;
+      padding: 0;
+    }
+  }
+}

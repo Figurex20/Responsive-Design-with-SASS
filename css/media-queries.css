@@ -1,0 +1,86 @@
+main {
+  display: -ms-grid;
+  display: grid;
+}
+
+main .perfil {
+  width: 100%;
+  height: auto;
+}
+
+main .perfil__boton {
+  padding-top: 7px;
+}
+
+main .estadistica--perfil {
+  width: 75%;
+}
+
+main .estadistica--perfil h3 {
+  font-size: 20px;
+}
+
+main .ubicacion--perfil {
+  width: 75%;
+  padding: 20px 0 0 30px;
+}
+
+main .estadistica--perfil {
+  -webkit-box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+main .ubicacion--perfil {
+  -webkit-box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+main .galeria {
+  width: 75%;
+  height: auto;
+  padding: 20px 0 5px 15px;
+  -webkit-box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+main .galeria__foto-principal {
+  margin-left: 15%;
+}
+
+main .galeria__fotos-adicionales img {
+  height: 150px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+main .galeria h2 {
+  margin-left: 24%;
+}
+
+main .articulos {
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+main .articulo {
+  margin-bottom: 0%;
+  margin-top: 10px;
+}
+
+main .articulo__categoria {
+  margin-left: 5px;
+}
+
+main .articulo__titulo {
+  margin: 2px 2% 2% 5%;
+  font-size: 12px;
+  padding: 0;
+}
+
+main .articulo__descripcion {
+  margin: 2px 2% 2% 5%;
+  font-size: 12px;
+  padding: 0;
+}
+/*# sourceMappingURL=media-queries.css.map */
